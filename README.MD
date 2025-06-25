@@ -46,6 +46,10 @@ MAX_SAFE_CHAR_LIMIT // => number
 ***Check*** `USAGE_EX.MD` ***for in-depth function usage examples***
 
 
+### Testing
+Basic assert tests are included in `/test/` folder in `index.test.js`
+
+
 # Credit
 ### **Author:** *[charuse](https://github.com/charuse)*
 

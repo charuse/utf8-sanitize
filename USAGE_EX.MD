@@ -61,3 +61,36 @@ const input = 'Report <Q1/2025> | Final Ã©?.txt';
 const result = FullSanitize(input, options);
 // Expected output: "Report Q12025  Final él.txt"
 ```
+
+## `FixLatin1Corrupt` Usage Example
+```js
+const input = 'El menÃº del dÃ­a.';
+const result = FixLatin1Corrupt(input);
+console.log(result);
+// Expected output: "El menú del día."
+```
+
+## `VerifyByteLength` Usage Example
+```js
+const validInput = 'String 1';
+console.log(VerifyByteLength(validInput));
+// Expected output: true
+
+const invalidInput = null;
+console.log(VerifyByteLength(invalidInput));
+// Expected output: false
+```
+
+## `SanitizeInput` Usage Example
+```js
+const input = '<p>A "test"!</p>';
+const options = { mode: 'html' };
+console.log(SanitizeInput(input, options));
+// Expected output: "<p>A "test"!</p>"
+```
+*HTML example, see* `FullSanitize` *for* `alphanumeric` *and* `filename`
+
+## `MAX_SAFE_CHAR_LIMIT` Usage Example
+```js
+if (input <= MAX_SAFE_CHAR_LIMIT)
+```
