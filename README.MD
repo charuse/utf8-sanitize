@@ -14,7 +14,7 @@ A lightweight, performant utility with zero dependencies to sanitize and repair 
 # Install
 
 ```bash
-npm install utf8-sanitize   
+npm install utf8-sanitize
 ```
 
 
