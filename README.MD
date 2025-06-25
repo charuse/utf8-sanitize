@@ -45,14 +45,14 @@ MAX_SAFE_CHAR_LIMIT // => number
 
 ***Check*** `USAGE_EX.MD` ***for in-depth function usage examples***
 
-
 ### Testing
 Basic assert tests are included in `/test/` folder in `index.test.js`
 
+### [Github Project Link](https://github.com/charuse/utf8-sanitize)
 
 # Credit
 ### **Author:** *[charuse](https://github.com/charuse)*
 
-### **License:** *[MIT](https://opensource.org/license/mit)*
+### **License:** *[MIT](LICENSE)*
 
 #### *Made with the help of [Google Gemini 2.5 Pro](https://aistudio.google.com)*
