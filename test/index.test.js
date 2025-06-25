@@ -75,3 +75,8 @@ test('FullSanitize should repair, then sanitize a string', () => {
   const expected = 'é <script>go</script>';
   assert.strictEqual(FullSanitize(input, { mode: 'html' }), expected);
 });
+
+// --- Test valid MAX_SAFE_CHAR_LIMIT---
+test('Value test for MAX_SAFE_CHAR_LIMIT', () => {
+  assert.strictEqual(MAX_SAFE_CHAR_LIMIT, 268435400);
+});

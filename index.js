@@ -2,11 +2,11 @@
  * @name utf8-sanitize
  * @description Sanitizes and repairs UTF-8 text
  * 
- * @version 1.0.0
+ * @version 1.0.1
  * @author charuse
  * @license MIT
  * 
- * @repository 
+ * @repository https://github.com/charuse/utf8-sanitize.git
  * 
  * Function definitions and usage examples in USAGE_EX.MD
  */

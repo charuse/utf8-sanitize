@@ -1,6 +1,6 @@
 {
   "name": "utf8-sanitize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A performant zero-dependency utility to clean UTF-8 text, fix mojibake from latin1, verify string length, and sanitize input",
   "main": "index.js",
   "scripts": {
