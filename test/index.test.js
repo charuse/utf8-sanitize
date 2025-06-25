@@ -7,6 +7,7 @@ const {
   VerifyByteLength,
   SanitizeInput,
   FullSanitize,
+  MAX_SAFE_CHAR_LIMIT,
 } = require('../index.js');
 
 // --- Test Suite for FixLatin1Corrupt ---
