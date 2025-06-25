@@ -8,7 +8,7 @@ A lightweight, performant utility with zero dependencies to sanitize and repair 
 * **🛠️** Repairing mojibake corruption in latin1 single-byte to multi-byte UTF-8 character conversion
 * **📏** Check if a string's length matches its expected or safe 32-bit length
 * **🚫** Cleans string by removing/escaping characters based on a specifiable sanitization mode
-* **🔄** Function that provides a full pipeline for repair and sanitization through `FullSanitize`
+* **🔄** Function that provides a full pipeline for repair and sanitization through `FullSanitize` 
 
 
 # Install
