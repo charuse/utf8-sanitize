@@ -1,0 +1,49 @@
+{
+  "name": "utf8-sanitize",
+  "version": "1.0.0",
+  "description": "A performant zero-dependency utility to clean UTF-8 text, fix mojibake from latin1, verify string length, and sanitize input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/utf8-sanitize.git"
+  },
+  "keywords": [
+    "utf8",
+    "utf-8",
+    "sanitize",
+    "sanitization",
+    "zero-dependencies",
+    "zero-dependency",
+    "mojibake",
+    "performant",
+    "lightweight",
+    "xss",
+    "verify-length",
+    "verify-text-length",
+    "text-length",
+    "text-length-verify",
+    "string-repair",
+    "text-cleaning",
+    "text-processing",
+    "encoding",
+    "encoding-fix",
+    "input-sanitization",
+    "validator",
+    "validation",
+    "latin1",
+    "secure",
+    "security",
+    "input",
+    "safe-string",
+    "data-pipeline"
+    ],
+  "author": "charuse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-username/utf8-sanitize/issues"
+  },
+  "homepage": "https://github.com/your-username/utf8-sanitize#readme"
+}
